@@ -1,0 +1,30 @@
+:root {
+  /* Colors */
+
+}
+
+body {
+  font-size: 62.5%;
+  /*font-family: "DM Sans", sans-serif;*/
+}
+
+h1{
+  font-size: 5vw;
+  margin: 1em auto;
+  text-align: center;
+}
+
+.container{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container img{
+  border: 1px solid black;
+}
+
+@media screen and (min-width: 1000px) {
+  h1{
+    font-size: 4vw;
+  }
+}
